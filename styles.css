@@ -1,0 +1,521 @@
+
+/* Header Styles */
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+#home nav p {
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    justify-content: flex-start;
+    color: black;
+    font-size: larger;
+}
+header ul {
+    width: 30%;
+    display: flex;
+    justify-content: space-evenly;
+}
+header ul  li {
+    display: inline;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 1%;
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    transition: padding 2s, transform 1s;
+}
+
+header ul li:hover {
+    transform: scale(1.02);
+    padding: 10px;
+}
+
+header h1 {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    text-shadow:  1px 1px 2px black;
+    transition: all 2s;
+}
+
+header h1:hover {
+    transform: scale(1.1 );
+}
+
+header ul a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.5s ease-in;
+    padding: 10px;
+
+}
+
+header ul a:hover {
+    text-decoration: underline;
+    border: 1px solid black;
+    box-shadow:  0 0.5em 0.5em -0.4em black;
+    transform: translateY(-1em);
+}
+
+/* Homepage Styles */
+main {
+    width: 100%;
+}
+#index {
+    background-color: #f4f4f4;;
+    color: black;
+    font-family: "Raleway", "sans-serif";
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#index h2 {
+    text-align: center;
+    transition: all 2s;
+    border-bottom: 2px solid #302f2f;
+}
+#index h2:hover {
+    transform: scale(1.02);
+}
+
+#index p {
+    font-weight: lighter;
+    font-family: "Sarabun", sans-serif;
+    font-weight: 600;
+}
+#index div {
+    display: flex;
+}
+.intro {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    padding: 1%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #cbcaca;
+    border: 2px solid grey;
+    border-radius: 3%;
+    transition: all 1s ease-in;
+    margin-right: 4px;
+}
+
+
+.history {
+    justify-content: flex-start;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    margin: 0;
+    align-items: flex-start;
+    background-color: #cbcaca;
+    border: 2px solid grey;
+    border-radius: 3%;
+    transition: all 1s ease-in;
+}
+
+.history:hover, .intro:hover {
+    transform: translateY(-5px);
+}
+
+.z {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.genres {
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.genres ul{
+    justify-content: center;
+    text-align: center;
+    list-style-type: none;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.genres li {
+    align-items: center;
+    text-align: center;
+    height: auto;
+    gap: 6%;
+    display: flex;
+    font-family: "Sarabun", sans-serif;
+    background-color: #cbcaca;
+    margin-bottom: 2px;
+    padding: 10px;
+    border-radius: 8px;
+    background: #e9e9e9;
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;    
+}
+
+.genres li:hover {
+    background: #d0d0d0;
+    transform: translateY(-5px);
+}
+
+.x {
+    display: flex;
+}
+
+.cultural-impact {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    margin-right: 4px;
+    padding: 1%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #cbcaca;
+    border: 2px solid grey;
+    border-radius: 3%;
+    transition: all 1s ease-in;
+}
+
+.cultural-impact p {
+    margin-top: 0;
+    padding: 0;
+}
+.future-of-music {
+    justify-content: flex-start;
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: #cbcaca;
+    border: 2px solid grey;
+    border-radius: 3%;
+    transition: all 1s ease-in;
+}
+
+.future-of-music h2 {
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+
+.cultural-impact:hover, .future-of-music:hover {
+    transform: translateY(-5px);
+}
+
+/* Artists Page Styles */
+
+#artists {
+    background-color: #f4f4f4;;
+    color: black;
+}
+
+#artists h2 {
+    text-align: center;
+}
+
+#artists p {
+    font-family: "Raleway", "sans-serif";
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 8%;
+    width: 100%;
+}
+
+.container img {
+    width: 32%; 
+    margin-bottom: 10%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+#artists img {
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+}
+#artists img:hover {
+    cursor:pointer;
+    border: 4px solid black;
+    transform: scale(1.1);
+}
+
+/* Platforms Page Styles
+
+#platforms {
+    background-color: #f4f4f4;
+    color: black;
+}
+.coke-studio {
+    background-size: cover;
+} */
+
+
+
+
+
+/* Showcase Styles */
+
+.showcase {
+    background-color: #f4f4f4; /* Light background color for contrast */
+    color: black;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.showcase .bio {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.showcase .bio:hover {
+    border: 1px solid black;
+}
+.showcase .bio img {
+    width: 200px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.showcase .bio img:hover {
+    transform: scale(1.05); /* Slightly zoom on hover */
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.5);
+}
+
+.showcase .bio h2 {
+    margin: 0;
+    font-size: 1.8em;
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+}
+
+.showcase .bio p {
+    font-size: 1em;
+    line-height: 1.6;
+}
+
+.showcase .songs table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.showcase .songs table th, .showcase .songs table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+.showcase .songs table th {
+    background-color: #c9c9c9;
+    text-transform: uppercase;
+}
+
+.showcase .songs table td {
+    background-color: #f9f9f9;
+}
+
+.showcase .video {
+    text-align: center;
+}
+
+.showcase .video iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px; 
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.showcase .video iframe:hover {
+    transform: scale(1.05); 
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer Stlyes */
+
+footer {
+    text-align: center;
+    font-family: "Raleway", "sans-serif";
+}
+
+footer a {
+    text-decoration: none;
+    font-family: "Raleway", "sans-serif";
+    margin-bottom: 0;
+}
+
+footer img {
+    width:2%;
+    height: 10%;
+}
+
+footer #footer {
+    width:2%;
+    height: 10%;
+    position: relative;
+    right: -690px;
+    bottom: -20px;
+    border: none;
+    margin-top: 0;
+}
+
+footer #footer:hover {
+    transform:none;
+    border: none;
+}
+
+/* responsiveness for screens upto 768px */
+@media only screen and (max-width: 768px) {
+    header ul {
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    header ul li {
+        padding: 5px;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #index div {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .intro, .history, .genres, .cultural-impact, .future-of-music {
+        width: 100%;
+        padding: 1%;
+    }
+
+    .genres li {
+        font-size: 14px;
+    }
+
+    /* Artist responsiveness */
+    .container {
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container img {
+        width: 80%;
+        margin-bottom: 10px;
+    }
+
+    /* Showcase reponsiveness */
+    .showcase .bio {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .showcase .bio img {
+        margin-bottom: 20px;
+    }
+
+    .showcase .songs table {
+        font-size: 13px;
+    }
+
+    .showcase .video iframe {
+        height: 290px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    header ul {
+        width: 30%;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+    }
+
+    header h1 {
+        font-size: 22px;
+    }
+
+    .intro, .history, .genres, .cultural-impact, .future-of-music {
+        width: 100%;
+        padding: 1%;
+    }
+
+    body {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 1.2em;
+    }
+
+    #home nav p {
+        font-size:smaller;
+    }
+
+    .genres li {
+        padding: 3px;
+        font-size: 12px;
+    }
+
+    .container img {
+        width: 100%;
+    }
+
+    /* Showcase page bio and table adjustments */
+    .showcase .bio img {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .showcase .songs table {
+        font-size: 10px;
+    }
+
+    .showcase .video iframe {
+        height: 250px;
+    }
+
+    footer #footer {
+        display: flex;
+        flex-direction: column;
+        right: 0;
+        bottom: 0;
+        width: 5%;
+        top: 20px;
+        right: -150px;
+    }
+}
